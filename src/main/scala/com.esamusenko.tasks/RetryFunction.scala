@@ -8,8 +8,8 @@ object RetryFunction {
   /** *
    * Method that accepts a function and a number of attempts and throws exception if it cannot execute func successfully for numOfAttemps times
    *
-   * @param numOfAttempts
-   * @param func
+   * @param numOfAttempts number of retry attempts
+   * @param func          func that need to retry if previous executions were fail
    * @tparam T
    * @return result of function or throws last exception
    */
